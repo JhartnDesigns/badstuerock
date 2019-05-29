@@ -12,10 +12,10 @@ html, body {
     background-color: transparent;
     padding: .8em;
 }
-
-.musik, .omos, .events {
-  background-color: #33001a;
-  position: sticky;
+.navbaromos {
+    background-color: #212121;
+    padding: .8em;
+    position: sticky;
 }
 
 .navbar-nav li {
@@ -31,6 +31,23 @@ html, body {
   left: 50%;
   transform: translatex(-50%);
   margin-top: 3%;
+}
+.container-fluidomos{
+background-color: #212121;
+height: 90px;
+}
+
+.navforside {
+  margin-top: 22px;
+}
+.navvare {
+  margin-top: 22px;
+}
+.navomos {
+  margin-top: 22px;
+}
+.navevents {
+  margin-top: 22px;
 }
 
 /*CAROUSEL SLIDER*/
