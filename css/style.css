@@ -40,19 +40,19 @@ height: 80px;
   align-self: center;
 }
 
-.logo {
-  align-self:center;
-}
+
 
 .navforside {
   margin-top: 20px;
+    margin-right: 50px
 }
 .navvare {
   margin-top: 20px;
+  margin-right: 50px;
 }
 .navomos {
   margin-top: 20px;
-  margin-left: -150px;
+  margin-left: -140px;
 }
 .navevents {
   margin-top: 20px;
