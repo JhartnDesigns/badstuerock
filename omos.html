@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jaded-Studio - Projects</title>
+	<title>BadstueRock - Om os</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -14,242 +14,346 @@
 </head>
 <body>
 
-<!--Navigation-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-<div class="container-fluid">
-	<a class="navbar-brand" href="index.html"><img class="logosite" src="img/"#"" alt="logo"></a>
+<!-- Navigation -->
+<nav class="navbaromos fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+<div class="container-fluidomos">
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarResponsive">
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav navbar-center">
+				<li class="nav-item">
+					<a class="nav-link navforside" href="index.html">Forside</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link navvare" href="musik.html">Varekatalog</a>
+				</li>
+
+				<a class="navbar-brand" href="index.html"><img class="logo" src="img/logonew.png" alt="logo"></a>
+
 				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Forside</a>
+					<a class="nav-link navomos" href="omos.html">Om os</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="musik.html">Musik</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="omos.html">Om os</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="events.html">Events</a>
+					<a class="nav-link navevents" href="events.html">Events</a>
 				</li>
 			</ul>
 	</div>
 </div>
 </nav>
 
-<!--Project Grids-->
-<div class="container-fluid padding bg-dark boks1">
-  <div class="row padding ">
-    <div class="col-lg-6 project-text-dark">
-      <br>
-      <h2>Cinema Squid</h2>
-			<p>This project was about creating a web app that would help solve a user's problem. We focused on the issue concerning the boring and time consuming process of finding the right movie.</p>
-      <br>
+<!--- Hero image -->
+<div class="heroimage">
+	<img src="img/omosbaggrund.jpg" alt="BadstueRock">
 
-			<!-- Trigger the modal with a button -->
-			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalone">Read More</button>
 
-			<!-- Modal -->
-			<div id="modalone" class="modal fade" role="dialog">
-  			<div class="modal-dialog modal-lg">
+</div>
 
-				<!-- Modal content-->
-  			  <div class="modal-content">
-      			<div class="modal-header">
-        			<h2 class="modal-title">THE WEB APP "CINEMA SQUID"</h2>
-      			</div>
+<!--- Nyheds Preview Slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+<div class="container-preview">
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h2>NYHEDER</h2>
+        </div>
+    </div>
 
-      			<div class="modal-body">
-        			<div class="modals-text">
-								<p>My latest project was about the creation of a problem solving web app.<br><br>Our target audience had problems figuring out which movies to watch and was tired of searching through endless lists on streaming sites.<br><br>Our solution for this problem was making a randomizer that would grab a single movie depending on the selected movie category.<br><br>This is ultimately one of the most well recieved projects I've been a part of, and I hope to work on someting similar again.</p>
-							</div>
-							<div class="modals-images">
-								<img class="imageone" src="img/cinemaavatar.png" alt="blob">
-								<img class="imagetwo" src="img/randomizeone.png" alt="randomone">
-								<img class="imagethree" src="img/randomizetwo.png" alt="randomtwo">
-								<img class="imagefour" src="img/randomizethree.png" alt="randomthree">
-								<img class="imagefive" src="img/randomizefour.png" alt="randomfour">
-							</div>
-      			</div>
+	<div class="row col-md-12" id="media">
+		<!--- Swiper -->
+<div class="swiper-container col-md-10">
+	<div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="img/nyhedet.jpg"></div>
+                                <div class="card-body">
+                                   <h4>Kunstner</h4>
+                                   <h6 class="pt-1 pb-2">Pladetitel</h6>
 
-						<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      			</div>
-    			</div>
-  			</div>
-			</div>
+                                   <button type= "button" class="btn btn-primary btn-block btn-sm">Bestil</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="img/nyhedtre.jpg"></div>
+                                <div class="card-body">
+																	<h4>Kunstner</h4>
+																	<h6 class="pt-1 pb-2">Pladetitel</h6>
+
+                                   <button type= "button" class="btn btn-primary btn-block btn-sm">Bestil</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="img/nyhedto.jpg"></div>
+                                <div class="card-body">
+																	<h4>Kunstner</h4>
+																	<h6 class="pt-1 pb-2">Pladetitel</h6>
+
+                                   <button type= "button" class="btn btn-primary btn-block btn-sm">Bestil</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="img/nyhedfire.jpg"></div>
+                                <div class="card-body">
+																	<h4>Kunstner</h4>
+																	<h6 class="pt-1 pb-2">Pladetitel</h6>
+
+                                  <button type= "button" class="btn btn-primary btn-block btn-sm">Bestil</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      </div>
+      <div class="swiper-slide">
+          <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="https://img.gaadicdn.com/images/carexteriorimages/upcoming/360x240/Jeep/Jeep-Renegade/047.jpg"></div>
+                                <div class="card-body">
+																	<h4>Kunstner</h4>
+																  <h6 class="pt-1 pb-2">Pladetitel</h6>
+
+                                   <button type= "button" class="btn btn-outline-danger btn-block btn-sm">Lets Judge it.</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="https://img.gaadicdn.com/images/carexteriorimages/upcoming/360x240/Jeep/Jeep-Renegade/047.jpg"></div>
+                                <div class="card-body">
+																	<h4>Kunstner</h4>
+																  <h6 class="pt-1 pb-2">Pladetitel</h6>
+
+                                   <button type= "button" class="btn btn-outline-danger btn-block btn-sm">Lets Judge it.</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="https://img.gaadicdn.com/images/carexteriorimages/upcoming/360x240/Jeep/Jeep-Renegade/047.jpg"></div>
+                                <div class="card-body">
+																	<h4>Kunstner</h4>
+																  <h6 class="pt-1 pb-2">Pladetitel</h6>
+
+                                   <button type= "button" class="btn btn-outline-danger btn-block btn-sm">Lets Judge it.</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-img"><img src="https://img.gaadicdn.com/images/carexteriorimages/upcoming/360x240/Jeep/Jeep-Renegade/047.jpg"></div>
+                                <div class="card-body">
+																	<h4>Kunstner</h4>
+																  <h6 class="pt-1 pb-2">Pladetitel</h6>
+
+                                   <button type= "button" class="btn btn-outline-danger btn-block btn-sm">Lets Judge it.</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+      					</div>
+      </div>
+    </div>
 		</div>
-
-    <div class="col-lg-6 projectoneimg">
-      <img src="img/projectone.png" class="img-fluid" alt="projectone">
-    </div>
-  </div>
 </div>
 
-<div class="container-fluid padding">
-  <div class="row padding ">
-    <div class="col-lg-6 projecttwoimg">
-      <img src="img/professormac.png" class="img-fluid" alt="professorpus">
+<!--- Ny sektion -->
+
+<section class="container p-t-3">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Bootstrap 4 Card Slider</h1>
+        </div>
     </div>
-
-    <div class="col-lg-6 project-text">
-      <br>
-      <h2>Professor Pus</h2>
-      <p>Web documentaries are an interesting medium! This was a very creative and visual project consisting of images, sound and various film clips. The final solution consisted of a web documentary for the artist Professor Pus. </p>
-      <br>
-			<!-- Trigger the modal with a button -->
-			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modaltwo">Read More</button>
-
-			<!-- Modal -->
-			<div id="modaltwo" class="modal fade" role="dialog">
-				<div class="modal-dialog modal-lg">
-
-				<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title">WEB DOCUMENTARY FOR PROFESSOR PUS</h2>
-						</div>
-
-						<div class="modal-body">
-							<div class="modals-text">
-								<p>Since this web documentary had so many visual elements, it was very important to create a balance between the visuals and the story telling.<br> This balance is suceeded by the use of eyecatching typography and the fact that all graphic elements had a specific role in telling the story of Professor Pus.<br><br>The visual elements are distributed between four overall categories: the still images, the videos, the patterns and of course the geometric flowers that binds it all together.<br><br>The story we had to tell was Professor Pus' musical journey. The videos tell the story of a young woman overcomming various life situations to find her voice.<br><br>Even though this project was fun and got great feedback, I have a new found appreciation for the saying: "Less is more".</p>
-							</div>
-							<div class="modals-images">
-								<img class="imageten" src="img/mockuppus.png" alt="pusmock">
-								<img class="imagesix" src="img/pusprofil.png" alt="profile">
-								<img class="imageseven" src="img/puslogo.png" alt="pus">
-								<img class="imagenine" src="img/bropus.png" alt="bro">
-								<img class="imageeight" src="img/eyes.png" alt="eyes">
-							</div>
-						</div>
-
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
+</section>
+<section class="carousel slide" data-ride="carousel" id="postsCarousel">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-md-right lead">
+                <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+    <div class="container p-t-0 m-t-2 carousel-inner">
+        <div class="row row-equal carousel-item active m-t-0">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="img/nyhedet.jpg" alt="Carousel 1">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <h6 class="small text-wide p-b-2">Insight</h6>
+                        <h2>
+                            <a href>Why Stuff Happens Every Year.</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="img/nyhedet.jpg" alt="Carousel 2">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <h6 class="small text-wide p-b-2">Development</h6>
+                        <h2>
+                            <a href>How to Make Every Line Count.</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="img/nyhedet.jpg" alt="Carousel 3">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <h6 class="small text-wide p-b-2">Design</h6>
+                        <h2>
+                            <a href>Responsive is Essential.</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-equal carousel-item m-t-0">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="img/nyhedet.jpg" alt="Carousel 4">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <h6 class="small text-wide p-b-2">Another</h6>
+                        <h2>
+                            <a href>Tagline or Call-to-action.</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category 1</h6>
+                        <h2>
+                            <a href>This is a Blog Title.</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 fadeIn wow">
+                <div class="card">
+                    <div class="card-img-top card-img-top-250">
+                        <img class="img-fluid" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
+                    </div>
+                    <div class="card-block p-t-2">
+                        <h6 class="small text-wide p-b-2">Category 3</h6>
+                        <h2>
+                            <a href>Catchy Title of a Blog Post.</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<div class="container-fluid padding bg-dark boks3">
-  <div class="row padding ">
-    <div class="col-lg-6 project-text-dark">
-      <br>
-      <h2>Søborg Gymnasium logo</h2>
-			<p>During my free time I took on a logo project. This was for one of my acquaintances that wanted a redesign of their old high school logo. <br><br>There wasn't a lot of creative thinking but the practical side of this project taught me about patience and perserverance.</p>
-      <br>
-			<!-- Trigger the modal with a button -->
-			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalthree">Read More</button>
-
-			<!-- Modal -->
-			<div id="modalthree" class="modal fade" role="dialog">
-				<div class="modal-dialog modal-lg">
-
-				<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title">LOGO FOR SØBORG GYMNASIUM</h2>
-						</div>
-
-						<div class="modal-body">
-							<div class="modals-text">
-								<p>Aside from learning about patience I also learned a lot more about working in Adobe Illustrator.<br><br>As I mentioned earlier, the project didn't need any new designs. This meant that I could take my time with all the details, such as text positioning and perfect balance.<br><br> It was very refreshing to really finetune the logo before handing the finished product over to the client.</p>
-							</div>
-							<div class="modals-images">
-								<img class="imageeleven" src="img/gymnasiumlogo.png" alt="gymnasiumlogo">
-							</div>
-						</div>
-
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+			<img src="img/collage.png" alt="fixed">
 		</div>
+	</div>
+	<div class="">
+		<p>djdjddj</p>
+	</div>
+</figure>
 
-    <div class="col-lg-6 projectthreeimg">
-      <img src="img/gymnasiumlogo.png" class="img-fluid" alt="gymnasium">
-    </div>
-  </div>
-</div>
-
+<!--- Two Column Section -->
 <div class="container-fluid padding">
-  <div class="row padding ">
-    <div class="col-lg-6 projectfourimg">
-      <img src="img/vincentbig.png" class="img-fluid" alt="vincent">
-    </div>
-
-    <div class="col-lg-6 project-text">
-      <br>
-      <h2>Vinyl Design - "Vincent"</h2>
-			<p>One of my favorite songs at the moment is "Vincent" by Elle Goulding. I came up with the idea of making a vinyl design that would reflect the vulnerability and elegance present in the song.</p>
+	<div class="row padding">
+		<div class="col-lg-6 service">
+			<h4>Hvad vi tilbyder</h4>
 			<br>
-			<!-- Trigger the modal with a button -->
-			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalfour">Read More</button>
-
-			<!-- Modal -->
-			<div id="modalfour" class="modal fade" role="dialog">
-				<div class="modal-dialog modal-lg">
-
-				<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title">VINYL DESIGN OF "VINCENT" BY ELLE GOULDING</h2>
-						</div>
-
-						<div class="modal-body">
-							<div class="modals-text">
-								<p>The biggest design choice I had to make was whether or not 'Starry Night' should be on the cover or not.<br><br> I decided to put on the record instead since I really wanted to have a more subtle focal point, and although the song does mention the infamous painting, it's really not what the song is about.<br><br>The color palette for this project, was almost intuitive for me. Since there are many vibrant blues present in the painting, I wanted to create a visual contrast with a warmer tone.</p>
-								<img class="imagefourteen" src="img/vincent.png" alt="vincentalbum">
-							</div>
-							<div class="modals-images">
-								<img class="imagethirteen" src="img/vincentbig.png" alt="vincentbigtwo">
-								<img class="imagetwelve" src="img/vincentori.png" alt="vincentoriginal">
-							</div>
-						</div>
-
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
+			<p>Her på BadstueRocks hjemmeside kan du bestille din ønskede musik ned til vores butik i Badstuegade 22, så du altid kan få lige præcis det du leder efter.<br><br>
+			Tryk på knappen nedenfor og se vores brede musikudvalg.</p>
+			<br>
+			<div>
+				<a href="varekatalog.html"><button type="button" class="btn btn-primary btn-lg">Se vores udvalg</button></a>
 			</div>
 		</div>
-  </div>
+
+		<div class="col-lg-6">
+			<img src="img/service.jpg" class="img-fluid serviceimg" alt="profileone">
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6 service">
+			<h4>Her skal events og facebook feed være</h4>
+			<br>
+			<p>Her på BadstueRocks hjemmeside kan du bestille din ønskede musik ned til vores butik i Badstuegade 22, så du altid kan få lige præcis det du leder efter.</p>
+		</div>
+
+		<div class="col-lg-6">
+			<img src="img/service.jpg" class="img-fluid serviceimg" alt="profileone">
+		</div>
+	</div>
+	<hr class="my-4">
 </div>
 
 <!--- Footer -->
-<footer>
+<footer id="footer">
 <div class="container-fluid padding">
 	<div class="row text-center">
 
 		<div class="col-md-4">
-			<img class="logowhite" src="img/logowhite.png" alt="white">
+			<img class="logo" src="img/logonew.png" alt="white">
 			<br>
 			<hr class="light">
 			<br>
-			<h2>Thanks For Visiting</h2>
+			<h2>Tak fordi du besøgte BadstueRock</h2>
 		</div>
 
 		<div class="col-md-4">
 			<hr class="light">
-			<h5>Contact Info</h5>
+			<h5>Kontakt os</h5>
 			<hr class="light">
-			<p>Phone: +45 31 34 05 14</p>
-			<p>E-mail: juliehandersen@hotmail.dk</p>
-			<p>Street: Ringvej Syd 104</p>
-			<p>Aarhus, Cipcode: 8210</p>
+			<a class="col-md-12">
+				<p>+45 31 34 05 14</p>
+				<i class="fas fa-phone"></i>
+			</a>
+			<a class="col-md-12">
+				<p>badstuerock@hotmail.dk</p>
+				<i class="fas fa-envelope"></i>
+			</a>
+			<a href="https://www.facebook.com/badstuerock/" class="col-md-12">
+				<p>Facebook</p>
+				<i class="fab fa-facebook"></i>
+			</a>
+			<a class="col-md-12">
+				<p>Adresse: Badstuegade 22, 8000 Aarhus C</p>
+			</a>
 		</div>
 
 		<div class="col-md-4">
 			<hr class="light">
-			<h5>Work Hours</h5>
+			<h5>Åbningstider</h5>
 			<hr class="light">
 			<p>Monday: 9am - 5pm</p>
 			<p>Saturday: 10am - 4pm</p>
@@ -258,11 +362,12 @@
 
 		<div class="col-12">
 			<hr class="light-100">
-			<h5>jaded-studio.com</h5>
+			<h5>badstuerock.dk</h5>
 		</div>
 	</div>
 </div>
 </footer>
-
+<a href="https://fontmeme.com/retro-fonts/">
+</a>
 </body>
 </html>
