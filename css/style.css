@@ -196,8 +196,15 @@ img {width:100%;}
     overflow:hidden;
 }
 
-.service {
+.ombadstuerock {
   margin-top: 2%;
+  float:left;
+}
+.bjoern {
+margin-top: 3%;
+width: 70%;
+float: right;
+padding: 10%;
 }
 
 .serviceimg {
