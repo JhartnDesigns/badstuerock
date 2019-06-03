@@ -504,6 +504,8 @@ hr.light-100 {
   }
 
   /*varekatalog*/
+
+
   .gridContainer {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -512,8 +514,16 @@ hr.light-100 {
 }
 
 .gridContainer>.gridItem {
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
+}
+.search input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
 
 /*FIREFOX_BUG FIX*/

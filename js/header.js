@@ -39,7 +39,7 @@ function appendVare(vares) {
     gridVare.innerHTML += `
       <article class="gridItem">
       <img src="img/${vare.img}">
-      <h4>${vare.kunstner}</h4>
+      <h5>${vare.kunstner}</h5>
       <p>${vare.album}</p>
       </article>
       `;
