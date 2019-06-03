@@ -464,6 +464,19 @@ hr.light-100 {
   }
   }
 
+  /*varekatalog*/
+  .gridContainer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.gridContainer>.gridItem {
+  text-align: center;
+  padding: 20px 0;
+}
+
 /*FIREFOX_BUG FIX*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;

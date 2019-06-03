@@ -19,3 +19,14 @@
     $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
 
 })
+//Varekatalog
+const doc = document;
+
+fetch('json/data.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(json => {
+    console.log(json);
+    appendVare(json.vare)
+  });
