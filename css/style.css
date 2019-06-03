@@ -6,14 +6,7 @@ html, body {
   font-family: 'Poppins', sans-serif;
   color: #222;
 }
-/*font
-@font-face {
-  font-family: retrofont;
-  src: url(mexcellent 3d.ttf);
-}
-h1 {
-  font-family: retrofont;
-}*/
+
 h1{
   font-family: 'Monoton', cursive;
   color: #b40000;
@@ -23,6 +16,7 @@ h1{
 .navbarforside {
     background-color: transparent;
     padding: .8em;
+    padding-top: 6%;
     height: 150px;
 }
 .navbarunderside {
@@ -32,7 +26,7 @@ h1{
 }
 
 .navbar-nav li {
-  padding-right: 1.3em;
+  padding: 1em;
 }
 
 .nav-link {
@@ -49,14 +43,14 @@ h1{
   transform: translatex(-50%);
 }
 .container-fluidomos{
-background-color: #212121;
-height: 80px;
+  background-color: #212121;
+  height: 80px;
 }
 
 .navforside {
-margin: 50px;
-margin-left: -20px;
-padding-top: 25px;
+  margin: 50px;
+  margin-left: -20px;
+  padding-top: 25px;
 }
 
 .navvare {
@@ -65,9 +59,9 @@ padding-top: 25px;
 }
 
 .logob {
-width: 100px;
-margin:50px;
-margin-top: 41px;
+  width: 100px;
+  margin:50px;
+  margin-top: 41px;
 }
 
 .navomos {
@@ -77,8 +71,8 @@ margin-top: 41px;
 }
 
 .navevents {
-margin:50px;
-padding-top: 25px;
+  margin:50px;
+  padding-top: 25px;
 }
 
 /*CAROUSEL SLIDER*/
@@ -130,6 +124,18 @@ img {width:100%;}
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 3%;
+}
+
+.card-body h4 {
+  font-size: 1.2em;
+}
+
+.card-body h6 {
+  font-size: 0.9em;
+}
+
+.card-body .btn {
+  font-size: 1em;
 }
 
 .swiper-container {
@@ -241,9 +247,10 @@ img {width:100%;}
 
 /* om badstuerock */
 .container-fluidbsr{
-  padding: 5em;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .ombadstuerock {
   margin-top: 2%;
@@ -255,6 +262,12 @@ img {width:100%;}
 
 .serviceimg {
   margin-top: 3%;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
 }
 
 /* kontaktformular */
@@ -380,9 +393,6 @@ box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.54);
     }
 }
 
-/*Facebook Feed*/
-
-
 /*FOOTER*/
 footer {
   background-color: #b40000;
@@ -399,7 +409,7 @@ footer {
 }
 
 hr.light {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #fff;
   width: 75%;
   margin-top: .8em;
   margin-bottom: 1em;
@@ -410,7 +420,7 @@ footer a {
 }
 
 hr.light-100 {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #fff;
   width: 100%;
   margin-top: .8em;
   margin-bottom: 1em;

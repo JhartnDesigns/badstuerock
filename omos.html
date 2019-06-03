@@ -12,6 +12,9 @@
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script async defersrc="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI-mviyooaZuIKo2MMKiDeBhAJqvZv8ko&callback=initMap"></script>
+
 	<link href="css/style.css" rel="stylesheet">
 	<script type="text/javascript" src="js/header.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
@@ -55,29 +58,31 @@
 <!--- Om BadstueRock-->
 <div class="container-fluidbsr">
 	<div class="row">
-		<div class="col-lg-6 ombadstuerock">
+		<div class="col-lg-8 ombadstuerock">
 			<h2>Vi er BadstueRock</h2>
 			<br>
-			<p>BadstueRock blev åbnet i 1973 af Mick D'Astugues Latinerkvarteret.
+			<p>
+				BadstueRock blev åbnet i 1973 af Mick D'Astugues Latinerkvarteret.<br>
 				Mick holdte gang i butikken indtil år 2012, hvor Björn Lydén tog over. <br>
 				Björn Lydén er født og opvokset i Sverige og har arbejdet i Badstuerock
 				siden 2003, hvor han startede som studentermedhjælper.<br><br>
-BadstueRock er den ældste uafhængige pladebutik i Århus.
-Butikken er kendt for sit store udvalg af pladerog CD’er,
-samt butikkens indre, som ikke har ændret sig siden 1973.
-Væggene er dækket af gamle plakater af bands og musik legender. (rettes + tilføjes)
-</p>
+				BadstueRock er den ældste uafhængige pladebutik i Århus.
+				Butikken er kendt for sit store udvalg af pladerog CD’er,
+				samt butikkens indre, som ikke har ændret sig siden 1973.
+				Væggene er dækket af gamle plakater af bands og musik legender.<br><br>
+				Her i BadstueRock priser vi os på at yde den bedst mulige kunderservice og
+				tager gerne imod musikforespørgelser fra vores kunder.
+			</p>
 		</div>
 
-		<div class="col-lg-6">
+		<div class="col-lg-4">
 			<img src="img/bjoern.jpg" class="img-fluid bjoern" alt="Björn Lydén">
 		</div>
 	</div>
-	<hr class="my-4">
 </div>
 
 <!--- Kontaktformular -->
-<div class="containercontact contact-form">
+<div class="containercontact contact-form" id="kontaktformular">
             <form method="post">
           <div class="contactbox">
 						     <h3>KONTAKT OS</h3>
@@ -108,18 +113,8 @@ Væggene er dækket af gamle plakater af bands og musik legender. (rettes + tilf
 </div>
 
 <!--- Kort + info -->
-<div class="container-fluid padding">
-	<div class="row padding">
-		<div class="col-lg-6">
-			<img src="img/service.jpg" class="img-fluid serviceimg" alt="profileone">
-		</div>
-
-		<div class="col-lg-6">
-			<h4>Her skal geolocation/google maps være</h4>
-			<br>
-			<p>Her på BadstueRocks hjemmeside kan du bestille din ønskede musik ned til vores butik i Badstuegade 22, så du altid kan få lige præcis det du leder efter.</p>
-		</div>
-	</div>
+<div id="map" class="col-sm-12">
+	<h2>This is a map</h2>
 </div>
 
 <!--- Footer -->
@@ -168,13 +163,14 @@ Væggene er dækket af gamle plakater af bands og musik legender. (rettes + tilf
 			<p>Mandag - fredag: 11 - 17:30</p>
 			<p>Lørdag: 10:30 - 15:30</p>
 			<p>Søndag: lukket</p>
-			<a class="col-md-12">
-				<p>Adresse: Badstuegade 22, 8000 Aarhus C</p>
-			</a>
 		</div>
+		<hr class="light-100">
+		<a class="col-md-12">
+			<p>Adresse: Badstuegade 22, 8000 Aarhus C</p>
+		</a>
 	</div>
-</div>
-</footer>
+	</div>
+	</footer>
 
 </body>
 </html>
