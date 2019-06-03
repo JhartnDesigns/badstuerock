@@ -19,3 +19,29 @@
     $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
 
 })
+//Varekatalog
+const doc = document;
+
+fetch('json/vare.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(json => {
+    console.log(json);
+    appendVare(json.vare)
+  });
+
+  //
+function appendVare(vare) {
+  for (let vare of vares) {
+    console.log(vare);
+
+    gridVare.innerHTML += `
+      <article class="gridItem">
+      <h4>${vare.kunstner}</h4>
+      <p>${vare.album}</p>
+      </article>
+      `;
+  }
+  document.querySelector("#gridVare").innerHTML = htmlTemplate;
+}
