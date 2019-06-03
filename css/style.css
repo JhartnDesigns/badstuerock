@@ -15,22 +15,21 @@ h1 {
   font-family: retrofont;
 }*/
 h1{
-font-family: 'Monoton', cursive;}
-
-
-
+  font-family: 'Monoton', cursive;
+  color: #b40000;
+}
 
 /*NAVBAR*/
-.navbar {
+.navbarforside {
     background-color: transparent;
     padding: .8em;
+    height: 150px;
 }
-.navbaromos {
+.navbarunderside {
     background-color: #212121;
-    padding: .8em;
+    padding-top: 5em;
     position: sticky;
 }
-
 
 .navbar-nav li {
   padding-right: 1.3em;
@@ -40,11 +39,14 @@ font-family: 'Monoton', cursive;}
   font-size: 1.3em !important;
 }
 
+.navbarforside.black {
+  background-color: #212121;
+}
+
 .navbar-center {
   position: absolute;
   left: 50%;
   transform: translatex(-50%);
-  margin-top: 3%;
 }
 .container-fluidomos{
 background-color: #212121;
@@ -209,6 +211,17 @@ img {width:100%;}
     overflow:hidden;
 }
 
+.nyhederoverskrift {
+  margin-top: 3%;
+}
+
+.nyhederoverskrift h2{
+  background-color: #b40000;
+  color: #fff;
+  padding: 1.5%;
+  border-radius: 5px;
+}
+
 /*Hvad vi tilbyder - Forside*/
 .btn-outline-primary {
   color: #b40000;
@@ -218,6 +231,12 @@ img {width:100%;}
 .btn-outline-primary:hover {
   background-color: #b40000;
   border:none;
+}
+
+.eventforside {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #636363;
 }
 
 /* om badstuerock */
@@ -232,13 +251,6 @@ img {width:100%;}
 }
 .ombadstuerock h4 {
   font-size: 2em;
-}
-
-.bjoern {
-margin-top: -5%;
-width: 75%;
-float: right;
-padding: 10%;
 }
 
 .serviceimg {
@@ -340,6 +352,10 @@ box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.54);
   padding-bottom: 3%;
 }
 
+#kalender .col-1 {
+  padding: 1% 0 0 15%;
+}
+
 .event {
   height: 2vw;
 }
@@ -351,10 +367,10 @@ box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.54);
     .day h5 {
         background-color: #f8f9fa;
         padding: 3px 5px 5px;
-        margin: -8px -8px 8px -8px;
+        margin: -20px -8px 8px -8px;
     }
     .date {
-        padding-left: 4px;
+        padding:0;
     }
 }
 
@@ -364,11 +380,22 @@ box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.54);
     }
 }
 
+/*Facebook Feed*/
+
+
 /*FOOTER*/
 footer {
   background-color: #b40000;
   color: #fff;
   padding-top: 2em;
+}
+
+.kontaktinfo a {
+  color: #fff;
+}
+
+.kontaktinfo a:hover {
+  color: #a1a1a1;
 }
 
 hr.light {

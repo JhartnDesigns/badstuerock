@@ -1,12 +1,12 @@
      // Scrolling Effect
 
      $(window).on("scroll", function() {
-           if($(window).scrollTop() > 500) {
-                 $('navbar').addClass('black');
+           if($(window).scrollTop() > 400) {
+                 $('.navbarforside').addClass('black');
            }
 
            else {
-                 $('navbar').removeClass('black');
+                 $('.navbarforside').removeClass('black');
            }
      });
 
@@ -19,6 +19,7 @@
     $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
 
 })
+
 //Varekatalog
 const doc = document;
 
