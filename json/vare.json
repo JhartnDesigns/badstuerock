@@ -32,7 +32,7 @@
   },{
     "kunstner": "Bilie Eilish",
     "album":"When We All Fall Asleep, Where Do We Go?",
-    "img":"nyhedfem.png"
+    "img":"billie.png"
 
   },{
     "kunstner": "Elton John",
@@ -47,57 +47,57 @@
   },{
     "kunstner": "D-A-D",
     "album":"A Prayer For the Loud",
-    "img":"nyhedotte.png"
+    "img":"dad.png"
 
   },{
     "kunstner": "Rammstein",
     "album":"RAMMSTEIN",
-    "img":"nyhedotte.png"
+    "img":"rammstein.png"
 
   },{
     "kunstner": "Elton John & Taron Egerton",
     "album":"Rocketman (Music from the Motion Picture)",
-    "img":"nyhedotte.png"
+    "img":"elton.png"
 
   },{
     "kunstner": "Lewis Capaldi",
     "album":"Divinely Uninspired To A Hellish Extent",
-    "img":"nyhedotte.png"
+    "img":"lewis.png"
 
   },{
     "kunstner": "Miley Cyrus",
     "album":"SHE IS COMING",
-    "img":"nyhedotte.png"
+    "img":"miley.png"
 
   },{
     "kunstner": "Take That",
     "album":"Progress (Live)",
-    "img":"nyhedotte.png"
+    "img":"take.png"
 
   },{
     "kunstner": "Denis Solee & The Beegie Adair Trio",
     "album":"Sinatra on Sax",
-    "img":"nyhedotte.png"
+    "img":"denis.png"
 
   },{
     "kunstner": "Dani de Morón",
     "album":"El Sonido de Mi Libertad",
-    "img":"nyhedotte.png"
+    "img":"dani.png"
 
   },{
     "kunstner": "Adele",
     "album":"21",
-    "img":"nyhedotte.png"
+    "img":"adele.png"
 
   },{
     "kunstner": "Marie Key",
     "album":"De Her Dage",
-    "img":"nyhedotte.png"
+    "img":"marie.png"
 
   },{
     "kunstner": "Coldplay",
     "album":"Mylo Xyloto",
-    "img":"nyhedotte.png"
+    "img":"coldplay.png"
 
   }]
 }
