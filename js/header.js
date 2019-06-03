@@ -28,14 +28,13 @@ fetch('json/vare.json')
   })
   .then(json => {
     console.log(json);
-    appendVare(json.vare)
+    appendVare(json.vare);
   });
 
   //
-function appendVare(vare) {
+function appendVare(vares) {
   for (let vare of vares) {
     console.log(vare);
-
     gridVare.innerHTML += `
       <article class="gridItem">
       <h4>${vare.kunstner}</h4>
@@ -43,5 +42,4 @@ function appendVare(vare) {
       </article>
       `;
   }
-  document.querySelector("#gridVare").innerHTML = htmlTemplate;
 }

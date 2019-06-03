@@ -1,34 +1,38 @@
 {
   "vare": [{
     "kunstner": "Bob Dylan",
-    "album":"Blonde on Blonde",
+    "album":"Blonde on Blonde"
 
   }, {
     "kunstner": "Avril Lavigne",
-    "album":"Head Above Water",
+    "album":"Head Above Water"
 
   }, {
     "kunstner": "Meghan Trainor",
-    "album":"The Love Train",
+    "album":"The Love Train"
 
   }, {
     "kunstner": "Queen",
-    "album":"Bohemian Rhapsody",
+    "album":"Bohemian Rhapsody"
 
   }, {
     "kunstner": "Demon Head",
-    "album":"Thunder on the Fields",
+    "album":"Thunder on the Fields"
 
   }, {
     "kunstner": "Khalid",
-    "album":"Free Spirit",
+    "album":"Free Spirit"
+
+  },{
+    "kunstner": "Bilie Eilish",
+    "album":"When We All Fall Asleep, Where Do We Go?"
 
   },{
     "kunstner": "Elton John",
-    "album":"The Union",
+    "album":"The Union"
 
   },{
     "kunstner": "Radiohead",
-    "album":"Kid A",
-  }],
+    "album":"Kid A"
+  }]
 }
