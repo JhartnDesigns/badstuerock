@@ -6,6 +6,14 @@ html, body {
   font-family: 'Poppins', sans-serif;
   color: #222;
 }
+/*font*/
+@font-face {
+  font-family: retrofont;
+  src: url(FORTSSH_.TTf);
+}
+h1 {
+  font-family: retrofont;
+}
 
 /*NAVBAR*/
 .navbar {
