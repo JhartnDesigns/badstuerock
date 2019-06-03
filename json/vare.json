@@ -1,38 +1,47 @@
 {
   "vare": [{
     "kunstner": "Bob Dylan",
-    "album":"Blonde on Blonde"
+    "album":"Blonde on Blonde",
+    "img":"nyhedfem.png"
 
   }, {
     "kunstner": "Avril Lavigne",
-    "album":"Head Above Water"
+    "album":"Head Above Water",
+    "img":"nyhedseks.png"
 
   }, {
     "kunstner": "Meghan Trainor",
-    "album":"The Love Train"
+    "album":"The Love Train",
+    "img":"nyhedsyv.jpg"
 
   }, {
     "kunstner": "Queen",
-    "album":"Bohemian Rhapsody"
+    "album":"Bohemian Rhapsody",
+    "img":"nyhedfire.jpg"
 
   }, {
     "kunstner": "Demon Head",
-    "album":"Thunder on the Fields"
+    "album":"Thunder on the Fields",
+    "img":"nyhedto.jpg"
 
   }, {
     "kunstner": "Khalid",
-    "album":"Free Spirit"
+    "album":"Free Spirit",
+    "img":"nyhedtre.jpg"
 
   },{
     "kunstner": "Bilie Eilish",
-    "album":"When We All Fall Asleep, Where Do We Go?"
+    "album":"When We All Fall Asleep, Where Do We Go?",
+    "img":"nyhedfem.png"
 
   },{
     "kunstner": "Elton John",
-    "album":"The Union"
+    "album":"The Union",
+    "img":"nyhedet.jpg"
 
   },{
     "kunstner": "Radiohead",
-    "album":"Kid A"
+    "album":"Kid A",
+    "img":"nyhedotte.png"
   }]
 }
