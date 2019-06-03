@@ -29,20 +29,19 @@ fetch('json/vare.json')
   })
   .then(json => {
     console.log(json);
-    appendVare(json.vare)
+    appendVare(json.vare);
   });
 
   //
-function appendVare(vare) {
+function appendVare(vares) {
   for (let vare of vares) {
     console.log(vare);
-
     gridVare.innerHTML += `
       <article class="gridItem">
+      <img src="img/${vare.img}">
       <h4>${vare.kunstner}</h4>
       <p>${vare.album}</p>
       </article>
       `;
   }
-  document.querySelector("#gridVare").innerHTML = htmlTemplate;
 }
