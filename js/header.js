@@ -22,7 +22,7 @@
 //Varekatalog
 const doc = document;
 
-fetch('json/data.json')
+fetch('json/vare.json')
   .then(function(response) {
     return response.json();
   })
@@ -30,3 +30,18 @@ fetch('json/data.json')
     console.log(json);
     appendVare(json.vare)
   });
+
+  //
+function appendVare(vare) {
+  for (let vare of vares) {
+    console.log(vare);
+
+    gridVare.innerHTML += `
+      <article class="gridItem">
+      <h4>${vare.kunstner}</h4>
+      <p>${vare.album}</p>
+      </article>
+      `;
+  }
+  document.querySelector("#gridVare").innerHTML = htmlTemplate;
+}
