@@ -43,5 +43,61 @@
     "kunstner": "Radiohead",
     "album":"Kid A",
     "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "D-A-D",
+    "album":"A Prayer For the Loud",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Rammstein",
+    "album":"RAMMSTEIN",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Elton John & Taron Egerton",
+    "album":"Rocketman (Music from the Motion Picture)",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Lewis Capaldi",
+    "album":"Divinely Uninspired To A Hellish Extent",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Miley Cyrus",
+    "album":"SHE IS COMING",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Take That",
+    "album":"Progress (Live)",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Denis Solee & The Beegie Adair Trio",
+    "album":"Sinatra on Sax",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Dani de Morón",
+    "album":"El Sonido de Mi Libertad",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Adele",
+    "album":"21",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Marie Key",
+    "album":"De Her Dage",
+    "img":"nyhedotte.png"
+
+  },{
+    "kunstner": "Coldplay",
+    "album":"Mylo Xyloto",
+    "img":"nyhedotte.png"
+
   }]
 }
