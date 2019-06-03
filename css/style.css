@@ -86,6 +86,7 @@ padding-top: 25px;
   font-size: 150%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
+  padding-bottom: 3%;
 }
 
 .carousel-caption a {
@@ -93,13 +94,13 @@ padding-top: 25px;
 }
 
 .btn-primary {
-  background-color:  #b40000;
+  background-color: #b40000;
   border: none;
   margin-right: 2.5%;
 }
 
 .btn-primary:hover {
-  background-color: #660033;
+  background-color: #880000;
   border: none;
 }
 
@@ -189,12 +190,23 @@ img {width:100%;}
     display: flex;
 }
 
-
 /* control image height */
 .card-img-top-250 {
     max-height: 250px;
     overflow:hidden;
 }
+
+/*Hvad vi tilbyder - Forside*/
+.btn-outline-primary {
+  color: #b40000;
+  border-color: #b40000;
+}
+
+.btn-outline-primary:hover {
+  background-color: #b40000;
+  border:none;
+}
+
 /* om badstuerock */
 .container-fluidbsr{
   padding: 5em;
