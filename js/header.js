@@ -37,11 +37,11 @@ function appendVare(vares) {
   for (let vare of vares) {
     console.log(vare);
     gridVare.innerHTML += `
-      <article class="gridItem">
+      <a href="#" class="gridItem">
       <img src="img/${vare.img}">
       <h5>${vare.kunstner}</h5>
       <p>${vare.album}</p>
-      </article>
+      </a>
       `;
   }
 }
