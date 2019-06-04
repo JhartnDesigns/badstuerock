@@ -163,29 +163,6 @@ img {width:100%;}
   align-items: center;
 }
 
-/* Previous button  */
-/*.carousel-control.left
-{
-  left: -12px;
-  background-image: none;
-  font-size: 6em;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px;
-  color: #b40000;
-}*/
-/* Next button  */
-/*.carousel-control.right
-{
-  left: -12px;
-  background-image: none;
-  font-size: 6em;
-  height: 40px;
-  width : 40px;
-  margin-top: 30px;
-  color: #b40000;
-}*/
-
 /*Ny sektion*/
 /* equal card height */
 .row-equal > div[class*='col-'] {
@@ -374,26 +351,6 @@ box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.54);
   height: 2vw;
 }
 
-@media (max-width:575px) {
-    .display-4 {
-        font-size: 1.5rem;
-    }
-    .day h5 {
-        background-color: #f8f9fa;
-        padding: 3px 5px 5px;
-        margin: -20px -8px 8px -8px;
-    }
-    .date {
-        padding:0;
-    }
-}
-
-@media (min-width: 576px) {
-    .day {
-        height: 9vw;
-    }
-}
-
 /*FOOTER*/
 footer {
   background-color: #b40000;
@@ -429,6 +386,7 @@ hr.light-100 {
 
 /*MEDIA QUERIES*/
 @media (min-width: 576px) {
+  /*Forsiden*/
   .carousel-caption {
     top: 50%;
   }
@@ -443,7 +401,7 @@ hr.light-100 {
   }
 
   .display-4 {
-    font-size: 160%;
+    font-size: 1.5rem;
   }
 
   .social a {
@@ -453,6 +411,59 @@ hr.light-100 {
 
   .logo {
     width: 20%;
+  }
+
+  .fb-post iframe {
+    width: 90% !important;
+    margin-left: 5%;
+  }
+
+  /*Event siden*/
+  .day h5 {
+      background-color: #f8f9fa;
+      padding: 3px 5px 5px;
+      margin: -20px -8px 8px -8px;
+  }
+  .date {
+      padding:0;
+  }
+
+  .day {
+      height: 9vw;
+  }
+
+  /*Om os siden*/
+  .navbarunderside {
+    padding-top: 0;
+  }
+
+  .navbar-toggler {
+    margin: 3% !important;
+  }
+
+  .heroimage img{
+    display: none !important;
+  }
+
+  .col-lg-4 .bjoern {
+    display: none !important;
+  }
+
+  .contactbox {
+    height: 460px;
+  }
+
+  textarea {
+    height: 100px !important;
+  }
+
+  .contactbox .col-md-6 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .contactbox .form-group {
+    padding: 0 !important;
   }
 }
 
@@ -482,6 +493,25 @@ hr.light-100 {
   .logo {
     width: 25%;
   }
+
+  /*Om os siden*/
+  .col-lg-4 .bjoern {
+    display: block !important;
+  }
+
+  .contactbox {
+    height: 360px;
+    margin-top: 0;
+  }
+
+  textarea {
+    height: 145px !important;
+  }
+
+  .contactbox .col-md-6 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: 992px) {
@@ -493,7 +523,29 @@ hr.light-100 {
   .logo {
     width: 30%;
   }
+
+  /*Om os siden*/
+  .heroimage img{
+    display: block !important;
   }
+
+  .contactbox {
+    height: 400px;
+    padding-top: 0;
+  }
+
+  .contactbox h3 {
+    padding-top: 3%;
+  }
+
+  textarea {
+    height: 200px !important;
+  }
+
+  .contactbox .form-group {
+    padding: 3% !important;
+  }
+}
 
 @media (min-width: 1024px) {
   .social a {
@@ -512,7 +564,77 @@ hr.light-100 {
     font-size: 100%;
     padding: 10px 16px;
   }
+}
+
+@media (min-width: 1200px) {
+  /*Om os siden*/
+  /* kontaktformular */
+  .containercontact {
+    background-image: url(../img/moenster.png);
+    background-color: #b40000;
+     height: 530px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+  .contact-form{
+        width: 100%;
+        margin-top: -5%;
   }
+  .contact-form .form-control{
+      border-radius:0.3em;
+  }
+  .contact-form form{
+      padding: 14%;
+  }
+  .contactbox{
+    margin-top: -14%;
+    background-color: #b40000;
+    padding: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:0.5em;
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.54);
+
+  }
+  .contact-form form .row{
+      margin-bottom: -7%;
+  }
+  .contact-form h3{
+      margin-top: -13%;
+      text-align: center;
+      font-size: 2.5em;
+      color: #fff;
+  }
+
+  .contact-form .btnContact {
+      width: 50%;
+      border: none;
+      border-radius: 0.3em;
+      padding: 1.5%;
+      background: #a1a1a1;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+  }
+
+  .btnContactSubmit{
+      width: 50%;
+      border-radius: 1rem;
+      padding: 1.5%;
+      color: #fff;
+      background-color: #a1a1a1;
+      border: none;
+      cursor: pointer;
+  }
+
+  .form-group{
+    padding: 2%;
+  }
+};
+
+/*Media Queries Slut*/
 
   /*varekatalog*/
 
