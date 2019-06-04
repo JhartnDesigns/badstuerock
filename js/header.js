@@ -45,3 +45,24 @@ function appendVare(vares) {
       `;
   }
 }
+
+function search() {
+  // Declare variables
+  let input = document.getElementById('myInput');
+  let filter = input.value.toUpperCase();
+  let section = document.getElementById("gridVare");
+  let a = section.getElementsByTagName('a');
+  let txtValue = "";
+
+  // Loop through all list items, and hide those who don't match the search query
+
+  for (let i = 0; i < a.length; i++) {
+    a = a[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
