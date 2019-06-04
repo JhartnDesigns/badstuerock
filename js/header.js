@@ -46,23 +46,26 @@ function appendVare(vares) {
   }
 }
 
+
 function search() {
   // Declare variables
-  let input = document.getElementById('myInput');
+  let input = document.getElementById("myInput");
   let filter = input.value.toUpperCase();
-  let section = document.getElementById("gridVare");
-  let a = section.getElementsByTagName('a');
+
+  let aTags = document.querySelectorAll("#gridVare a");
+  console.log(aTags);
   let txtValue = "";
 
-  // Loop through all list items, and hide those who don't match the search query
+  // Loop through all a items, and hide those who don't match the search query
 
-  for (let i = 0; i < a.length; i++) {
-    a = a[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
+  for (let i = 0; i < aTags.length; i++) {
+    let aTag = aTags[i];
+    let artistName = aTag.getElementsByTagName("h5")[0];
+    txtValue = artistName.textContent || artistName.innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
+      aTag.style.display = "";
     } else {
-      a[i].style.display = "none";
+      aTag.style.display = "none";
     }
   }
 }
