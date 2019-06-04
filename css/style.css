@@ -638,7 +638,7 @@ hr.light-100 {
 
   /*varekatalog*/
 
-  .gridContainer {
+  .gridContainer{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   margin-top: 1%;
@@ -650,6 +650,7 @@ hr.light-100 {
   text-align: left;
   padding: 10%;
 color: #212121;
+grid-template-columns: 25% 25% 25% 25%;
 }
 .gridItem:hover {
   color: #b40000;
